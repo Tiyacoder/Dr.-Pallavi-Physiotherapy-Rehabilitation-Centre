@@ -40,7 +40,7 @@
 
         nav {
             display: flex;
-            justify-content: space-between;
+            justify-content: center;
             align-items: center;
         }
 
@@ -396,7 +396,9 @@
         /* Responsive */
         @media (max-width: 768px) {
             .nav-links {
-                display: none;
+                display: flex;
+                gap: 1rem;
+                font-size: 0.9rem;
             }
 
             .hero h1 {
@@ -479,7 +481,6 @@
     <!-- Header -->
     <header>
         <nav class="container">
-            <div class="logo">Dr. Pallavi Physiotherapy & Rehabilitation Centre</div>
             <ul class="nav-links">
                 <li><a href="#about">About</a></li>
                 <li><a href="#services">Services</a></li>
